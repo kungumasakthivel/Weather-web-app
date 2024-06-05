@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  color: white;
+  background-image: url('./images/pexels-photo-2531709.webp');
+  background-size: cover;
+  font-weight: bold;
 }
 
 .input-containe {
@@ -34,4 +39,18 @@
   width: 500px;
   max-width: 700px;
   height: 200px;
+}
+
+
+@media screen and (max-width: 567px) {
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80vw;
+  }
+
+  .mob-con {
+    width: 80vw;
+  }
 }

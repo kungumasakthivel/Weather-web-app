@@ -2,7 +2,7 @@ import React from "react";
 
 function OtherInfo({data}) {
     return (
-        <div className="other-info-container">
+        <div className="other-info-container mob-con">
             <div>
                 <p style={{textAlign:'center'}}>{data.condition.text}</p>
             </div>

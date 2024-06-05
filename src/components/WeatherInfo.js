@@ -8,7 +8,7 @@ function WeatherInfo ({data, locData}) {
     const f = data.temp_f;
     const lastUpdated = data.last_updated;
     return (
-        <div className="today-weather-container">
+        <div className="today-weather-container mob-con">
             <div>
                 <img src={data.condition.icon} alt="icon" />
             </div>
