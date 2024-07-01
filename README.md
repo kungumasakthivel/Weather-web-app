@@ -9,5 +9,6 @@
 ## Tech Stack
 
 * React JS
+* JavaScript
 * CSS
 * RestAPI
